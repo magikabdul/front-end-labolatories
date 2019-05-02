@@ -1,0 +1,17 @@
+.container {
+	max-width: 1300px;
+}
+
+.section-header {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.section-header h2::after {
+	content: "";
+	display: block;
+	margin: 10px auto;
+	width: 200px;
+	height: 1px;
+	background: #999;
+}
